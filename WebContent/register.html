@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+body{
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+form{
+
+	margin: auto;
+	height: auto;
+	width:400px;
+	height: 500px;
+	margin-top:10%;
+	border-radius: 10px;
+	padding:10px;
+	border: 1px solid #EAE8E8;
+}
+
+.text{
+	width: 300px;
+	height: 45px;
+	margin-left: 50px;
+	margin-top: 10px;
+	border: 1px solid #EAE8E8;
+}
+
+.inputdiv{
+	display:block;
+	margin-top: 10px;
+	margin-left:5px;
+}
+
+.buttonclass{
+	width: 250px ; 
+	height: 50px ; 
+	border-radius: 10px ;
+	border:0px;
+	margin-top:15px;
+	background-color: #b0b6c0;
+	font-weight: bold;
+	display:block;
+	margin-left: 75px;
+	margin-top:25px;
+
+}
+
+</style>
+</head>
+
+<body>
+
+<form action="signup" method="POST">
+<h1 style="width: 100%;text-align: center">REGISTER</h1>
+<div class="inputdiv">
+ <div style="width: 100%;text-align: center">User Name</div>
+  <input class="text" type="text" name="username">
+</div>
+<div class="inputdiv">
+  <div style="width: 100%;text-align: center">Password</div>
+  <input class="text" type="password" name="password">
+</div>
+<div class="inputdiv">
+  <div style="width: 100%;text-align: center">Re-Password</div>
+  <input class="text" type="password" name="repassword">
+</div>
+  <input class="buttonclass" type="submit" value="Sing Up">
+  <a href="login.html"><input class="buttonclass"  style="background-color: #46609e"  type="button" value="Sign in"></a>
+</form>
+
+</body>
+</html>
